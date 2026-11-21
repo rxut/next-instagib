@@ -24,7 +24,7 @@ footer{border-top:1px solid #2a2a28;padding-top:28px;color:#8e8d87;line-height:1
 <section><h2>A model freezes for a moment, then jumps</h2><p>Sometimes the game holds a player&#x27;s model still for a split second and then jumps it to the next pose.</p><p>IG+ blends it like any other move.</p>
 <video src="clips/frame_freeze.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<section><h2>Legs fold when a player switches strafe direction</h2><p>The game moves every point of the model in a straight line from the old pose to the new one. Switching strafe direction makes the legs cross and go thin for a moment.</p><p>IG+ has new in-between frames for this move, made from each model&#x27;s own frames. The legs turn and keep their shape. The upper body and the gun move exactly as before.</p>
+<section><h2>Legs fold when a player switches strafe direction</h2><p>The game moves every point of the model in a straight line from the old pose to the new one. Switching strafe direction makes the legs cross and go thin for a moment.</p><p>IG+ has new in-between frames for this move, made from each model&#x27;s own frames. The legs and the chest turn and keep their shape. The head and the gun move exactly as before.</p>
 <video src="clips/StrafeR_to_StrafeL.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
 <section><h2>The same, the other way</h2>
@@ -33,7 +33,7 @@ footer{border-top:1px solid #2a2a28;padding-top:28px;color:#8e8d87;line-height:1
 <section><h2>Legs fold when a player stops strafing</h2><p>Stopping a strafe folds the legs the same way. The arm that swings back to the gun also passes through the chest.</p><p>IG+ turns the legs and the arm instead. The gun stays where the game puts it.</p>
 <video src="clips/StrafeL_to_StillFrRp.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<section><h2>The arm disappears into the chest when a player starts strafing</h2><p>Starting a strafe from standing pulls that arm through the body.</p><p>IG+ swings it out at the shoulder.</p>
+<section><h2>The arm disappears into the chest when a player starts strafing</h2><p>Starting a strafe from standing pulls that arm through the body, and the legs go thin.</p><p>IG+ keeps the arm in front of the chest before it swings behind the body. The legs keep their shape.</p>
 <video src="clips/StillFrRp_to_StrafeL.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
 <section><h2>Legs fold when a player lands into a strafe</h2><p>Landing and strafing away right after folds the legs and the arm.</p><p>IG+ turns them instead.</p>
