@@ -18,31 +18,34 @@ video{width:100%;display:block;margin-top:18px;border:1px solid #2a2a28;border-r
 footer{border-top:1px solid #2a2a28;padding-top:28px;color:#8e8d87;line-height:1.6;max-width:46rem}
 </style></head><body><div class="w">
 <h1>How <span>IG+</span> draws player models</h1>
-<p class="lead">UT blends a model from one move to the next by sliding every point in a straight line. On some moves that folds the legs or pulls an arm through the body for a moment. IG+ fixes the worst of these.</p>
-<p class="lead">Every clip plays at a quarter speed. The base game is on the left and IG+ is on the right. Both are filmed at the same moment and spot.</p>
+<p class="lead">In UT some changes from one move to the next fold the legs or pull an arm through the body for a moment. IG+ has new in-between frames for nine of them. Those nine fold less. IG+ also fixes a freeze and the pancake after a forward flip.</p>
+<p class="lead">Every clip plays at a quarter speed. The base game is on the left and IG+ is on the right. Both sides show the same move. The clips show the Male and Female Commando.</p>
 <div class="legend"><span><i style="background:#f0eee8"></i>Left: base game</span><span><i style="background:#edc54a"></i>Right: IG+ with the fixes</span></div>
 <section><h2>A model freezes for a moment, then jumps</h2><p>Sometimes the game holds a player&#x27;s model still for a split second and then jumps it to the next pose.</p><p>IG+ blends it like any other move.</p>
 <video src="clips/frame_freeze.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<section><h2>Legs fold when a player switches strafe direction</h2><p>The game moves every point of the model in a straight line from the old pose to the new one. Switching strafe direction makes the legs cross and go thin for a moment.</p><p>IG+ has new in-between frames for this move, made from each model&#x27;s own frames. The legs and the chest turn and keep their shape. The head and the gun move exactly as before.</p>
+<section><h2>Legs fold when a player switches strafe direction</h2><p>Switching strafe direction makes the legs cross and go thin for a moment.</p><p>IG+ has new in-between frames for this move, made from each model&#x27;s own frames. The legs and the chest turn and keep more of their shape. The head and the gun look the same as in the base game.</p>
 <video src="clips/StrafeR_to_StrafeL.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<section><h2>The same, the other way</h2>
+<section><h2>The same, the other way</h2><p>The legs of the Female Soldier still get thin in this direction.</p>
 <video src="clips/StrafeL_to_StrafeR.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<section><h2>Legs fold when a player stops strafing</h2><p>Stopping a strafe folds the legs the same way. The arm that swings back to the gun also passes through the chest.</p><p>IG+ turns the legs and the arm instead. The gun stays where the game puts it.</p>
+<section><h2>Legs fold when a player stops strafing left</h2><p>Stopping a strafe to the left folds the legs the same way. The arm that swings back to the gun also passes through the chest.</p><p>IG+ turns the legs and the arm instead. The gun stays where the game puts it. The arm still shrinks on the Male Soldier.</p>
 <video src="clips/StrafeL_to_StillFrRp.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<section><h2>The arm disappears into the chest when a player starts strafing</h2><p>Starting a strafe from standing pulls that arm through the body, and the legs go thin.</p><p>IG+ keeps the arm in front of the chest before it swings behind the body. The legs keep their shape.</p>
+<section><h2>The arm disappears into the chest when a player starts strafing left</h2><p>Starting a strafe to the left from standing pulls that arm through the body. The legs also go thin.</p><p>IG+ moves the arm in front of the chest before it swings behind the body. The legs keep more of their shape. The shoulder still shrinks. It shrinks the most on the Female Soldier.</p>
 <video src="clips/StillFrRp_to_StrafeL.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<section><h2>Legs fold when a player lands into a strafe</h2><p>Landing and strafing away right after folds the legs and the arm.</p><p>IG+ turns them instead.</p>
+<section><h2>Legs fold when a player lands and strafes left</h2><p>Landing and then strafing left folds the legs and the arm.</p><p>IG+ turns them instead. It also turns the free arm when a player lands and stays standing. Some landings still keep the old blend.</p>
 <video src="clips/LandLgFr_to_StrafeL.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<section><h2>Legs fold going from a crouch into a strafe</h2><p>The game uses the crouch pose in the air as well, so this shows up after jumps and dodges too.</p><p>IG+ turns the legs instead.</p>
+<section><h2>Legs fold going from a crouch into a strafe to the right</h2><p>Going from a crouch into a strafe to the right folds the legs and the free arm.</p><p>IG+ turns both instead. The legs can still get thin. The shoulder of the Boss barely changes.</p>
 <video src="clips/DuckWlkL_to_StrafeR.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<section><h2>A forward flip lands as a pancake</h2><p>A forward flip often lands before its animation ends. The game then blends the model straight from upside down to standing. For a moment it is flat.</p><p>IG+ plays the flip to its end first, then lands at the base game&#x27;s pace. The free hand keeps its size on its way back to the gun.</p>
+<section><h2>A forward flip lands as a pancake</h2><p>A forward flip often lands before its animation ends. In the base game the model then looks flat for a moment.</p><p>IG+ plays the flip to its end first. The rest of the flip plays up to 1.5 times as fast. Then it blends on into the landing or the next move. The free arm keeps more of its size on most models.</p><p>The female models often land about halfway through the flip. They can skip the landing crouch while the flip finishes.</p>
 <video src="clips/Flip_to_LandLgFr.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
 </section>
-<footer><p>Only how the model is drawn changes. The moves and their timing are the same.</p><p>The new frames are made for the five stock models and for IG+'s forced skins. Custom models keep the old blend.</p></footer></div></body></html>
+<section><h2>The same flip on the Female Commando</h2>
+<video src="clips/Flip_female.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+</section>
+<footer><p>Movement stays the same. These fixes only change how the model is drawn. The landing animation plays a moment later when IG+ finishes a flip.</p><p>The drawn head can be away from the head that the server checks for headshots after a flip. That lasts until the model catches up. It takes longest on the female models.</p><p>IG+ can still add one still frame. You can get it at the end of a step, at the start of a move or at the end of a flip.</p><p>The new frames are made for the five stock models and for IG+'s forced skins. Custom models keep the old blend. The frames don't remove all folding. How much they help depends on the model and the move.</p><p>Switching strafe direction has new frames with every weapon. The other new frames are for the animations of the bigger weapons. The Enforcer and the translocator mostly use other animations and keep the old blend.</p><p>Bots don't get these fixes.</p></footer></div></body></html>
